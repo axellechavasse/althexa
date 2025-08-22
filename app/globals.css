@@ -1,0 +1,11 @@
+@import "tailwindcss";
+/* Thème (Tailwind v4) */
+@theme {
+  --color-brand: #0ea5a6;   /* turquoise Altéxa */
+  --color-accent: #f59e0b;  /* orange doux */
+}
+
+/* Base légère */
+html, body { height: 100%; }
+body { background: white; color: #0f172a; } /* slate-900 */
+a { text-decoration: none; }

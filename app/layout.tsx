@@ -24,10 +24,11 @@ export const metadata: Metadata = {
       "Former, accompagner, faire grandir — expertise HSE à Bagnères-de-Bigorre & à distance.",
     url: "https://altexa.vercel.app",
     siteName: "Altéxa",
-    images: [{ url: "/og.png", width: 1200, height: 630 }], // optionnel, mets /public/og.png si tu en as un
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Altéxa" }], // optionnel: ajoute public/og.png
     locale: "fr_FR",
     type: "website",
   },
+  metadataBase: new URL("https://altexa.vercel.app"),
 };
 
 export default function RootLayout({
@@ -37,7 +38,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      {/* Balises <head> supplémentaires (facultatif, en plus des metadata) */}
+      {/* Balises <head> supplémentaires (en plus des metadata) */}
       <head>
         <link rel="icon" href="/favicon.png" type="image/png" />
         <meta
@@ -45,6 +46,13 @@ export default function RootLayout({
           content="formation, sécurité, HSE, accompagnement, Bagnères-de-Bigorre, Altéxa, prévention, conseil"
         />
         <meta name="author" content="Axelle Chavasse" />
+
+        {/* Plausible Analytics (outil de suivi gratuit & léger) */}
+        <script
+          defer
+          data-domain="altexa.vercel.app"
+          src="https://plausible.io/js/script.js"
+        ></script>
       </head>
 
       <body className="bg-gray-50 flex flex-col min-h-screen">

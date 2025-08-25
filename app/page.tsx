@@ -113,7 +113,7 @@ export default function Home() {
   href="mailto:chavasseaxelle@gmail.com?subject=Demande%20information%20Altexa"
   className="px-5 py-3 rounded-xl border border-gray-300 hover:bg-white shadow-sm"
 >
-  ✉️ chavasseaxelle@gmail.com
+  ✉️ althexa.contact@gmail.com
 </a>
       <a
         href="tel:+33749698225"

@@ -24,7 +24,7 @@ export default function ContactPage() {
       </div>
 
       <div className="mt-8 space-y-1 text-gray-700">
-        <p><span className="font-semibold">Email :</span> chavasseaxelle@gmail.com</p>
+        <p><span className="font-semibold">Email :</span> althexa.contact@gmail.com</p>
         <p><span className="font-semibold">Téléphone :</span> 07 49 69 82 25</p>
         <p><span className="font-semibold">Créneaux :</span> Lun–Ven, 9h–18h</p>
       </div>

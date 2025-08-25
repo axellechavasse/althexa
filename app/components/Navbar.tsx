@@ -12,7 +12,7 @@ export default function Navbar() {
       <div className="flex items-center ml-20">
         <img
           src="/logo.png"
-          alt="Logo Altéxa"
+          alt="Logo Althéxa"
           className="h-24 w-auto object-contain"
         />
       </div>

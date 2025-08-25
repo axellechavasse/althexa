@@ -7,7 +7,7 @@ export default function Home() {
         <div>
           <Image 
         src="/logo.png" 
-        alt="Logo Altéxa" 
+        alt="Logo Altevia" 
         width={300}   // largeur en pixels
         height={200}  // hauteur en pixels
         className="mb-6 object-contain"
@@ -45,7 +45,7 @@ export default function Home() {
         <div className="rounded-lg overflow-hidden shadow-lg">
           <Image
             src="/image.png"
-            alt="Visuel Altéxa"
+            alt="Visuel Altevia"
             width={600}     // largeur en pixels
             height={400}    // hauteur en pixels
             className="object-cover w-full h-full"

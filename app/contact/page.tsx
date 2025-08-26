@@ -9,7 +9,7 @@ export default function ContactPage() {
 
       <div className="flex flex-col sm:flex-row gap-4">
         <a
-          href="mailto:chavasseaxelle@gmail.com?subject=Demande%20information%20Altexa"
+          href="mailto:althexa.contact@gmail.com?subject=Demande%20information%20Althexa"
           className="px-5 py-3 rounded-xl border border-gray-300 hover:bg-white shadow-sm"
         >
           ✉️ Envoyer un e-mail

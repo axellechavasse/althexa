@@ -25,7 +25,7 @@ export const metadata: Metadata = {
       "Former, accompagner, faire grandir — expertise HSE à Bagnères-de-Bigorre & à distance.",
     url: "https://althexa.vercel.app",
     siteName: "Althéxa",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Althexa" }],
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Althéxa" }],
     locale: "fr_FR",
     type: "website",
   },
@@ -43,7 +43,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.png" type="image/png" />
         <meta
           name="keywords"
-          content="formation, sécurité, HSE, accompagnement, Bagnères-de-Bigorre, Althexa, prévention, conseil"
+          content="formation, sécurité, HSE, accompagnement, Bagnères-de-Bigorre, Althéxa, prévention, conseil"
         />
         <meta name="author" content="Axelle Chavasse" />
         {/* Plausible Analytics */}

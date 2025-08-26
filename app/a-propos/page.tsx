@@ -24,7 +24,7 @@ export default function AProposPage() {
             sécurité.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Aujourd’hui, avec Altexa, je mets cette expérience au service des
+            Aujourd’hui, avec Althéxa, je mets cette expérience au service des
             entreprises, des collectivités et des organismes de formation,
             afin de renforcer la sécurité, la prévention et l’accompagnement
             au changement.

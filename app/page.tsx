@@ -7,7 +7,7 @@ export default function Home() {
         <div>
           <Image 
         src="/logo.png" 
-        alt="Logo Altevia" 
+        alt="Logo Althéxa" 
         width={300}   // largeur en pixels
         height={200}  // hauteur en pixels
         className="mb-6 object-contain"
@@ -45,7 +45,7 @@ export default function Home() {
         <div className="rounded-lg overflow-hidden shadow-lg">
           <Image
             src="/image.png"
-            alt="Visuel Altevia"
+            alt="Visuel Althéxa"
             width={600}     // largeur en pixels
             height={400}    // hauteur en pixels
             className="object-cover w-full h-full"
@@ -92,10 +92,10 @@ export default function Home() {
       {/* Contact / Footer */}
       <section id="contact" className="mx-auto max-w-6xl px-6 py-14">
         <h2 className="text-2xl md:text-3xl font-bold mb-4">Contact</h2>
-        <p className="text-slate-700">Bagnères-de-Bigorre • ch**avasse**axelle@gmail.com • 07 49 69 82 25</p>
+        <p className="text-slate-700">Bagnères-de-Bigorre • althexa.contact@gmail.com • 07 49 69 82 25</p>
       </section>
       <footer className="text-center text-slate-500 text-sm py-8">
-        © {new Date().getFullYear()} Altéxa — Tous droits réservés.
+        © {new Date().getFullYear()} Althéxa — Tous droits réservés.
       </footer>
     </main>
   );
@@ -110,7 +110,7 @@ export default function Home() {
 
     <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4">
       <a
-  href="mailto:chavasseaxelle@gmail.com?subject=Demande%20information%20Altexa"
+  href="mailto:althexa.contact@gmail.com"
   className="px-5 py-3 rounded-xl border border-gray-300 hover:bg-white shadow-sm"
 >
   ✉️ althexa.contact@gmail.com

@@ -1,9 +1,9 @@
-iimport "./globals.css";
+import "./globals.css";
 import type { Metadata } from "next";
 import Navbar from "./components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Althexa — Conseil & Formation HSE",
+  title: "Althéxa — Conseil & Formation HSE",
   description:
     "Conseil HSE, formations et accompagnement — Bagnères-de-Bigorre & à distance.",
   keywords: [
@@ -13,17 +13,18 @@ export const metadata: Metadata = {
     "formation",
     "accompagnement",
     "Bagnères-de-Bigorre",
+    "Althéxa",
     "Althexa",
     "conseil",
   ],
   authors: [{ name: "Axelle Chavasse" }],
   icons: { icon: "/favicon.png" }, // /public/favicon.png ou .ico
   openGraph: {
-    title: "Althexa — Conseil & Formation HSE",
+    title: "Althéxa — Conseil & Formation HSE",
     description:
       "Former, accompagner, faire grandir — expertise HSE à Bagnères-de-Bigorre & à distance.",
     url: "https://althexa.vercel.app",
-    siteName: "Althexa",
+    siteName: "Althéxa",
     images: [{ url: "/og.png", width: 1200, height: 630, alt: "Althexa" }],
     locale: "fr_FR",
     type: "website",
@@ -62,7 +63,7 @@ export default function RootLayout({
 
         {/* Pied de page */}
         <footer className="bg-gray-100 text-center p-4 text-sm text-gray-600">
-          © {new Date().getFullYear()} Althexa — Tous droits réservés.
+          © {new Date().getFullYear()} Althéxa — Tous droits réservés.
         </footer>
       </body>
     </html>
